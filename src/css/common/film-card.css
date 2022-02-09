@@ -1,0 +1,72 @@
+.film-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.film-card__title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  margin-bottom: 10px;
+  color: var(--main-text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+
+  max-width: 80%;
+}
+
+.film-card__title:hover {
+  text-decoration: underline;
+}
+
+.film-card:visited {
+  color: var(--main-text-color);
+}
+
+.film-card__poster {
+  width: fit-content;
+  height: fit-content;
+  
+  max-height: 350px;
+  height: 350px;
+  max-width: 235px;
+  width: 235px;
+  border-radius: 30px;
+  object-fit: cover;
+
+  margin-bottom: 30px;
+}
+
+.film-card__year {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+
+  margin-bottom: 10px;
+}
+
+.film-card__button {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  color: var(--main-text-color);
+}
+
+.film-card__button-img,
+.film-card__button {
+  width: 30px;
+  height: 30px;
+}
+
+.film-card__button_fix-width {
+  width: fit-content;
+}

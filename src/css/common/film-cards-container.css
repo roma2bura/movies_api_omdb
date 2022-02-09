@@ -1,0 +1,47 @@
+.film-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 0 15px;
+  font-size: 2rem;
+  line-height: 2.1rem;
+}
+
+.film-cards-container .film-card {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.film-cards-container__title {}
+
+.film-cards-container__link-button {}
+
+.film-cards-container__links-block {
+  margin-bottom: 50px;
+}
+
+.film-cards-container .film-card:not(:nth-child(3n)) {
+  margin-right: 3%;
+}
+
+@media (max-width: 1024px) {
+  .film-cards-container .film-card {
+    width: 47.5%;
+  }
+
+  .film-cards-container .film-card:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .film-cards-container .film-card:nth-child(2n+1) {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .film-cards-container .film-card {
+    width: 100%;
+    margin-right: 0%;
+  }
+}

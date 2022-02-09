@@ -1,0 +1,35 @@
+{
+  "name": "movies-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve --env development",
+    "lint": "npx eslint --fix ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.0",
+    "@babel/plugin-transform-regenerator": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
